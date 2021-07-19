@@ -32,6 +32,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @interface FUIFirestoreTableViewDataSource : NSObject <UITableViewDataSource>
 
+- (void)batchedArray:(FUIBatchedArray *)array
+   didUpdateWithDiff:(FUISnapshotArrayDiff<FIRDocumentSnapshot *> *)diff;
+
+@property (strong, nonatomic, readwrite) UITableViewCell *(^populateCell)
+(UITableView *tableView, NSIndexPath *indexPath, FIRDocumentSnapshot *snap);
+
 /**
  * The UITableView instance that operations (inserts, removals, moves, etc.) are
  * performed against. This collection view must be receiving data from
