@@ -22,9 +22,6 @@
 
 @interface FUIFirestoreTableViewDataSource () <FUIBatchedArrayDelegate>
 
-@property (strong, nonatomic, readwrite) UITableViewCell *(^populateCell)
-  (UITableView *tableView, NSIndexPath *indexPath, FIRDocumentSnapshot *snap);
-
 @property (strong, nonatomic, readonly) FUIBatchedArray *collection;
 
 @end
