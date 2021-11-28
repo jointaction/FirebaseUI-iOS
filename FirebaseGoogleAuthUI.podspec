@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'FirebaseGoogleAuthUI'
-  s.version      = '11.0.3'
+  s.version      = '12.0.0'
   s.summary      = 'Google authentication for FirebaseAuthUI.'
   s.homepage     = 'https://github.com/firebase/FirebaseUI-iOS'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.dependency 'FirebaseAuth'
   s.dependency 'FirebaseCore'
   s.dependency 'FirebaseAuthUI'
-  s.dependency 'GoogleSignIn', '~> 5.0'
+  s.dependency 'GoogleSignIn', '~> 6.0'
   s.resource_bundles = {
     'FirebaseGoogleAuthUI' => ['FirebaseGoogleAuthUI/Sources/{Resources,Strings}/*.{png,lproj}']
   }
