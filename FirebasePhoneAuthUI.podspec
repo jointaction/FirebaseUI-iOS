@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'FirebasePhoneAuthUI'
-  s.version      = '12.1.1'
+  s.version      = '12.2.0'
   s.summary      = 'A phone auth provider for FirebaseAuthUI.'
   s.homepage     = 'https://github.com/firebase/FirebaseUI-iOS'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '"${PODS_TARGET_SRCROOT}"',
   }
+  s.swift_version = '5.3'
 
   s.public_header_files = 'FirebasePhoneAuthUI/Sources/Public/FirebasePhoneAuthUI/*.h'
   s.source_files = 'FirebasePhoneAuthUI/Sources/**/*.{h,m}'

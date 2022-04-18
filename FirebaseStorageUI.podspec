@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'FirebaseStorageUI'
-  s.version      = '12.1.1'
+  s.version      = '12.2.0'
   s.summary      = 'UI binding libraries for Firebase.'
   s.homepage     = 'https://github.com/firebase/FirebaseUI-iOS'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
@@ -15,11 +15,12 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '"${PODS_TARGET_SRCROOT}"',
   }
+  s.swift_version = '5.3'
 
   s.tvos.deployment_target = '11.0'
   s.public_header_files = 'FirebaseStorageUI/Sources/Public/FirebaseStorageUI/*.h'
   s.source_files = 'FirebaseStorageUI/Sources/**/*.{h,m}'
-  s.dependency 'FirebaseStorage', '~> 8.0'
+  s.dependency 'FirebaseStorage', '>= 8.0', '< 10.0'
   s.dependency 'SDWebImage', '~> 5.6'
 
 end

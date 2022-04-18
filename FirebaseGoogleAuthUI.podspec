@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'FirebaseGoogleAuthUI'
-  s.version      = '12.1.1'
+  s.version      = '12.2.0'
   s.summary      = 'Google authentication for FirebaseAuthUI.'
   s.homepage     = 'https://github.com/firebase/FirebaseUI-iOS'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '"${PODS_TARGET_SRCROOT}"',
   }
+  s.swift_version = '5.3'
 
   s.public_header_files = 'FirebaseGoogleAuthUI/Sources/Public/FirebaseGoogleAuthUI/*.h'
   s.source_files = 'FirebaseGoogleAuthUI/Sources/**/*.{h,m}'

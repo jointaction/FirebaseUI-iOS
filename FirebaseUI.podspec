@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'FirebaseUI'
-  s.version      = '12.1.1'
+  s.version      = '12.2.0'
   s.summary      = 'UI binding libraries for Firebase.'
   s.homepage     = 'https://github.com/firebase/FirebaseUI-iOS'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.public_header_files = 'FirebaseUI.h'
   s.source_files = 'FirebaseUI.h'
-  s.swift_versions = '5.0'
+  s.swift_versions = '5.3'
   s.cocoapods_version = '>= 1.8.0'
   s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '"${PODS_TARGET_SRCROOT}"',

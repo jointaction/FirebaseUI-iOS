@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'FirebaseAuthUI'
-  s.version      = '12.1.1'
+  s.version      = '12.2.0'
   s.summary      = 'A prebuilt authentication UI flow for Firebase Auth.'
   s.homepage     = 'https://github.com/firebase/FirebaseUI-iOS'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
@@ -14,10 +14,11 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '"${PODS_TARGET_SRCROOT}"',
   }
+  s.swift_version = '5.3'
 
   s.public_header_files = 'FirebaseAuthUI/Sources/Public/FirebaseAuthUI/*.h'
   s.source_files = 'FirebaseAuthUI/Sources/**/*.{h,m}'
-  s.dependency 'FirebaseAuth', '~> 8.0'
+  s.dependency 'FirebaseAuth', '>= 8.0', '< 10.0'
   s.dependency 'FirebaseCore'
   s.resource_bundles = {
     'FirebaseAuthUI' => ['FirebaseAuthUI/Sources/{Resources,Strings}/*.{xib,png,lproj}']
