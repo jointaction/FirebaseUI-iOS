@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = 'FirebaseFirestoreUI'
   s.version      = '12.2.0'
   s.summary      = 'Data libraries and UI bindings for Firestore.'
-  s.homepage     = 'https://github.com/firebase/FirebaseUI-iOS'
+  s.homepage     = 'https://github.com/jointaction/FirebaseUI-iOS'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.source       = { :git => 'https://github.com/jointaction/FirebaseUI-iOS.git', :tag => 'v' + s.version.to_s}
   s.author       = 'Firebase'
