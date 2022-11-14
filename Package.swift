@@ -67,12 +67,12 @@ let package = Package(
     .package(
       name: "Facebook", 
       url: "https://github.com/facebook/facebook-ios-sdk.git",
-      "11.0.0"..<"13.0.0"
+      "11.0.0"..<"15.0.0"
     ),
     .package(
       name: "Firebase", 
       url: "https://github.com/firebase/firebase-ios-sdk.git",
-      "8.0.0"..<"10.0.0"
+      "8.0.0"..<"11.0.0"
     ),
     .package(
       name: "GoogleSignIn",
@@ -87,7 +87,7 @@ let package = Package(
     .package(
       name: "GTMSessionFetcher",
       url: "https://github.com/google/gtm-session-fetcher.git",
-      "1.4.0" ..< "2.0.0"
+      "1.4.0" ..< "3.0.0"
     ),
     .package(
       name: "SDWebImage",
