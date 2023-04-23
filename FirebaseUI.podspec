@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'FirebaseUI'
-  s.version      = '13.0.0'
+  s.version      = '13.1.0'
   s.summary      = 'UI binding libraries for Firebase.'
   s.homepage     = 'https://github.com/jointaction/FirebaseUI-iOS'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
@@ -23,11 +23,11 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Firestore' do |firestore|
-    firestore.dependency 'FirebaseFirestoreUI', '~> 13.0'
+    firestore.dependency 'FirebaseFirestoreUI', '~> 13.1'
   end
 
   s.subspec 'Storage' do |storage|
-    storage.dependency 'FirebaseStorageUI', '~> 13.0'
+    storage.dependency 'FirebaseStorageUI', '~> 13.1'
   end
 
   s.subspec 'Auth' do |auth|
