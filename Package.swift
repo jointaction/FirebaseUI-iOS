@@ -71,7 +71,7 @@ let package = Package(
     ),
     .package(
       name: "Firebase", 
-      url: "https://github.com/jointaction/firebase-ios-sdk.git",
+      url: "https://github.com/firebase/firebase-ios-sdk.git",
       "8.0.0"..<"11.0.0"
     ),
     .package(
