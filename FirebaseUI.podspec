@@ -23,11 +23,11 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Firestore' do |firestore|
-    firestore.dependency 'FirebaseFirestoreUI', '~> 13.1'
+    firestore.dependency 'FirebaseFirestoreUI', '~> 13.1.0'
   end
 
   s.subspec 'Storage' do |storage|
-    storage.dependency 'FirebaseStorageUI', '~> 13.1'
+    storage.dependency 'FirebaseStorageUI', '~> 13.1.1.0'
   end
 
   s.subspec 'Auth' do |auth|
