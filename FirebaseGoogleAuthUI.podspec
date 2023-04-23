@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = 'FirebaseGoogleAuthUI'
   s.version      = '13.0.0'
   s.summary      = 'Google authentication for FirebaseAuthUI.'
-  s.homepage     = 'https://github.com/firebase/FirebaseUI-iOS'
+  s.homepage     = 'https://github.com/jointaction/FirebaseUI-iOS'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.source       = { :git => 'https://github.com/jointaction/FirebaseUI-iOS.git', :tag => 'v' + s.version.to_s}
   s.author       = 'Firebase'

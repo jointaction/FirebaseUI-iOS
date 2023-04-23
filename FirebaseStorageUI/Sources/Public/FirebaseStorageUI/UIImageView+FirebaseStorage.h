@@ -29,7 +29,7 @@
   // -Xcc -fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/FirebaseStorage.modulemap
   // to your target's Other Swift Flags build setting.
   // See
-  // https://github.com/firebase/FirebaseUI-iOS/issues/1028#issuecomment-1262689219
+  // https://github.com/jointaction/FirebaseUI-iOS/issues/1028#issuecomment-1262689219
   // for more details.
   @import FirebaseStorage;
 #endif

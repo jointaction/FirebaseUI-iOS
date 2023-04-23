@@ -1,6 +1,6 @@
 Welcome to FirebaseUI and thanks for submitting an issue!
 
-Please take a look at [open issues](https://github.com/firebase/FirebaseUI-iOS/issues?q=is%3Aopen+is%3Aissue), as well as [resolved issues](https://github.com/firebase/FirebaseUI-iOS/issues?q=is%3Aissue+is%3Aclosed), to see if your issue is either already being addressed, or has been solved by someone else.
+Please take a look at [open issues](https://github.com/jointaction/FirebaseUI-iOS/issues?q=is%3Aopen+is%3Aissue), as well as [resolved issues](https://github.com/jointaction/FirebaseUI-iOS/issues?q=is%3Aissue+is%3Aclosed), to see if your issue is either already being addressed, or has been solved by someone else.
 
 If your issue concerns the CocoaPods error, "...transitive dependencies that include static binaries", please take a look at any of the following issues and see if your problem is solved: #48, #47, #46, #34, #23.
 

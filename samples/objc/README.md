@@ -11,7 +11,7 @@ This is a super simple FirebaseUI Chat demo in Objective C. It shows:
 
 In order to install and run:
 ``` bash
-git clone https://github.com/firebase/FirebaseUI-iOS.git
+git clone https://github.com/jointaction/FirebaseUI-iOS.git
 cd FirebaseUI-iOS/samples/objc
 pod install
 open FirebaseUI-demo-objc.xcworkspace
@@ -20,7 +20,7 @@ Once you've opened the workspace, go into `Supporting Files/Info.plist` and eith
 
 ### Project configuration
 
-Please follow steps described [here](https://github.com/firebase/FirebaseUI-iOS#mandatory-sample-project-configuration) in order to run the sample project.
+Please follow steps described [here](https://github.com/jointaction/FirebaseUI-iOS#mandatory-sample-project-configuration) in order to run the sample project.
 
 ### Chat Sample
 

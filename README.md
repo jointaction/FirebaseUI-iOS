@@ -1,12 +1,12 @@
 # FirebaseUI for iOS — UI Bindings for Firebase
 
-![Anonymous Auth](https://github.com/firebase/FirebaseUI-iOS/actions/workflows/anonymousauth.yml/badge.svg) ![Auth](https://github.com/firebase/FirebaseUI-iOS/actions/workflows/auth.yml/badge.svg) ![Database](https://github.com/firebase/FirebaseUI-iOS/actions/workflows/database.yml/badge.svg) ![Email Auth](https://github.com/firebase/FirebaseUI-iOS/actions/workflows/emailauth.yml/badge.svg) ![Facebook Auth](https://github.com/firebase/FirebaseUI-iOS/actions/workflows/facebookauth.yml/badge.svg) ![Firestore](https://github.com/firebase/FirebaseUI-iOS/actions/workflows/firestore.yml/badge.svg) ![Google Auth](https://github.com/firebase/FirebaseUI-iOS/actions/workflows/googleauth.yml/badge.svg) ![OAuth](https://github.com/firebase/FirebaseUI-iOS/actions/workflows/oauth.yml/badge.svg) ![Phone Auth](https://github.com/firebase/FirebaseUI-iOS/actions/workflows/phoneauth.yml/badge.svg) ![Storage](https://github.com/firebase/FirebaseUI-iOS/actions/workflows/storage.yml/badge.svg) ![Samples](https://github.com/firebase/FirebaseUI-iOS/actions/workflows/sample.yml/badge.svg)
+![Anonymous Auth](https://github.com/jointaction/FirebaseUI-iOS/actions/workflows/anonymousauth.yml/badge.svg) ![Auth](https://github.com/jointaction/FirebaseUI-iOS/actions/workflows/auth.yml/badge.svg) ![Database](https://github.com/jointaction/FirebaseUI-iOS/actions/workflows/database.yml/badge.svg) ![Email Auth](https://github.com/jointaction/FirebaseUI-iOS/actions/workflows/emailauth.yml/badge.svg) ![Facebook Auth](https://github.com/jointaction/FirebaseUI-iOS/actions/workflows/facebookauth.yml/badge.svg) ![Firestore](https://github.com/jointaction/FirebaseUI-iOS/actions/workflows/firestore.yml/badge.svg) ![Google Auth](https://github.com/jointaction/FirebaseUI-iOS/actions/workflows/googleauth.yml/badge.svg) ![OAuth](https://github.com/jointaction/FirebaseUI-iOS/actions/workflows/oauth.yml/badge.svg) ![Phone Auth](https://github.com/jointaction/FirebaseUI-iOS/actions/workflows/phoneauth.yml/badge.svg) ![Storage](https://github.com/jointaction/FirebaseUI-iOS/actions/workflows/storage.yml/badge.svg) ![Samples](https://github.com/jointaction/FirebaseUI-iOS/actions/workflows/sample.yml/badge.svg)
 
 FirebaseUI is an open-source library for iOS that allows you to quickly connect common UI elements to the [Firebase](https://firebase.google.com?utm_source=FirebaseUI-iOS) database for data storage, allowing views to be updated in realtime as they change, and providing simple interfaces for common tasks like displaying lists or collections of items.
 
 Additionally, FirebaseUI simplifies Firebase authentication by providing easy to use auth methods that integrate with common identity providers like Facebook, Twitter, and Google as well as allowing developers to use a built in headful UI for ease of development.
 
-FirebaseUI clients are also available for [Android](https://github.com/firebase/FirebaseUI-Android) and [web](https://github.com/firebase/firebaseui-web).
+FirebaseUI clients are also available for [Android](https://github.com/jointaction/FirebaseUI-Android) and [web](https://github.com/jointaction/firebaseui-web).
 
 ![](https://raw.githubusercontent.com/firebase/FirebaseUI-iOS/master/samples/demo.gif)
 
@@ -73,7 +73,7 @@ If you'd like to contribute to FirebaseUI for iOS, you'll need to run the
 following commands to get your environment set up:
 
 ```bash
-$ git clone https://github.com/firebase/FirebaseUI-iOS.git
+$ git clone https://github.com/jointaction/FirebaseUI-iOS.git
 $ cd FirebaseUI-iOS
 $ cd Auth # or PhoneAuth, Database, etc
 $ pod install

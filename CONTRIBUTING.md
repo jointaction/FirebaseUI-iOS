@@ -23,7 +23,7 @@ frustration later on.
 If this has been discussed in an issue, make sure to mention the issue number.
 If not, go file an issue about this to make sure this is a desirable change.
 
-If this is a new feature please co-ordinate with someone on [FirebaseUI-Android](https://github.com/firebase/FirebaseUI-Android)
+If this is a new feature please co-ordinate with someone on [FirebaseUI-Android](https://github.com/jointaction/FirebaseUI-Android)
 to make sure that we can implement this on both platforms and maintain feature parity.
 Feature parity (where it makes sense) is a strict requirement for feature development in FirebaseUI.
 
